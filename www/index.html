@@ -62,9 +62,17 @@
            <ion-scroll direction="x">
              <!-- <img ng-repeat="image in allImages" ng-src="{{image.src}}" ng-click="showImages($index)" class="image-list-thumb"/> -->
              <span ng-repeat="image in allImages" class="image-list-outerthumb">
-                <img src="{{image.src}}" class="image-list-thumb"/>
-               <span   >lll </span>
-            </span>
+                    <span class="test1">
+                      <img src="{{image.src}}" class="image-list-thumb">
+                        <span class="test1">
+                          <span><span class="productName">Hello</span>    &nbsp;  &nbsp;  &nbsp;   <span class="productPrice">Price $4</span></span>
+                          <!-- <span class="test1">hello</span>
+                          <span class="test1">Price $5</span> -->
+                        </span>
+                        <button class="test1">+ Add to cart</button>
+                      </img>
+                    </span>
+                  </span>
              <!-- <div ng-repeat="image in allImages" class="image-list-thumb" />
                 <img   ng-src="{{image.src}}" ng-click="showImages($index)"   >
              </div> -->

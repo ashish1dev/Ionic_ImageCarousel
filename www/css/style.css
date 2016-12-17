@@ -32,3 +32,19 @@
     background-repeat: no-repeat;
     background-position: center, center;
 }
+
+.test1 {
+    display: table-row;
+    text-align: center;
+}
+
+.test2{
+    display: table-column;
+}
+
+.productName{
+    float:left;
+}
+.productPrize{
+    float:right;
+}
