@@ -6,7 +6,7 @@
 
 .image-list-outerthumb{
   padding: 2px 2px 2px 2px;
-  height: 200px;  
+  height: 200px;
 }
 
 .image-modal {
@@ -36,10 +36,16 @@
 .test1 {
     display: table-row;
     text-align: center;
+
+}
+
+.addCartBtn{
+  background-image:url('img/plus_icon.png');
 }
 
 .test2{
-    display: table-column;
+    display: table-row;
+    text-align: right;
 }
 
 .productName{

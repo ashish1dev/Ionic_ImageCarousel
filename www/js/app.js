@@ -25,11 +25,26 @@ angular.module('starter', ['ionic'])
 
 .controller('GalleryCtrl', function($scope, $ionicBackdrop, $ionicModal, $ionicSlideBoxDelegate, $ionicScrollDelegate) {
 
-  $scope.allImages = [{
+  // $scope.allImages = [{
+  //   src: 'img/1.png'
+  // }, {
+  //   src: 'img/2.png'
+  // }, {
+  //   src: 'img/3.png'
+  // }];
+
+  $scope.itemDetails = [{
+    name: 'Keenu',
+    price: '$4',
     src: 'img/1.png'
+
   }, {
+    name: 'Apple',
+    price: '$5',
     src: 'img/2.png'
   }, {
+    name: 'StrawBerry',
+    price: '$8',
     src: 'img/3.png'
   }];
 
